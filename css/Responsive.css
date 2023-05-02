@@ -1,0 +1,106 @@
+/*Home Css Responsive*/
+
+@media (max-width:1030px) 
+{
+    #home .home-banner-1,
+    #home .home-banner-2
+    {
+        background-position: 65% center;
+        min-height: 550px;
+    }
+    #home .home-banner-text
+    {
+        transform: translate(-80% , -50%);
+    }
+}
+
+.carousel-inner
+{
+    top:-3px;
+}
+
+/*Offer Css*/
+
+#offers .offer-box .offer-info .haeding-bigger
+{
+    font-size: 3rem;
+}
+
+@media (max-width:991px)
+{
+    #home .home-banner-text
+    {
+        transform: translate(-66% , -50%);
+    }
+
+}
+
+@media (max-width:767px)
+{
+    #home .home-banner-1,
+    #home .home-banner-2
+    {
+
+        background-position: 50% center;
+        min-height: 450px;
+    }
+    #home .home-banner-text
+{
+    text-align: center;
+    width: 100%;
+    transform: translate(-50% , -50%);
+}
+#home .home-banner-text h1 
+{
+font-size: 3rem;
+}
+#home .home-banner-text h2 
+{
+font-size: 1.2rem;
+}
+#home .home-banner-text .btn-danger{
+
+    padding: 0.5rem 1.5rem;
+}
+}
+
+@media (max-width)
+{
+    #home .home-banner-text h2
+
+    {
+        font-size: 1rem;
+
+    }
+}
+
+.picture1
+{
+    height: 640px;
+}
+
+
+/*Product Css*/
+
+#product .up-to-content h2
+{
+    font-size: 1.75rem;
+}
+
+/*Special Css*/
+
+#special .countdown-container .countdown-counter li
+{
+    padding: 1rem;
+    width: 20%;
+}
+
+/*Testimonials Css*/
+
+.testimonial .testimontial-wrapper
+{
+    padding: 1rem;
+}
+/*Product Css*/
+
+
